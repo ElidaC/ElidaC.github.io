@@ -1,3 +1,172 @@
-h1 {
-	font-family: arial;
+
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
 }
+body::before {
+    content: 'Orange Is Energetic: Orange is often described as an energetic color. It may call to mind feelings of enthusiasm and excitement. Because orange is a high-energy color, many sports teams use orange in their uniforms, mascots, and branding.A 2018 study published in the journal Frontiers in Psychology found that orange was seen as an exciting color that could increase energy levels and make it more difficult to engage in difficult tasks such as studying.Orange Is Attention-Getting One study found that orange is considered a highly stimulating but friendly color.3 It is an attention-grabbing color that tends to stand out visually, which is why it is often used for traffic signs and advertising.Research has shown that longer-wavelength colors such as orange and red tend to induce higher levels of arousal.Orange Is Happy People also commonly describe the color orange as bright, happy, and joyful. Orange is the color of bright sunsets and fruits like oranges and tangerines, so many people might associate the color with the beauty of the setting sun or the refreshing taste of citrus. Research also suggests that consumers respond to the color orange in a number of different ways. It is perceived as a playful, friendly color when used in consumer marketing and products. Shoppers also tend to associate it with more inexpensive products. Orange Is Spiritual The color orange is often associated with spiritual practices including meditation and compassion. In Southeast Asia, Buddhist monks wear orange robes that symbolize simplicity and letting go of materialism. The tradition dates back thousands of years to the time of Buddha. Robes were often made using bits of unwanted cloth that were then dyed using vegetable matter and spices such as turmeric and saffron. Today, the garments are often referred to as saffron robes. Orange Is Autumnal Orange is also linked to autumn and the color of dying leaves and pumpkins. The color is also heavily linked to Halloween in the United States, so it can sometimes have a dark or even cartoonish association. Psychology of the Color Orange Orange is a combination of red and yellow. Both colors are often associated with excitement and energy, which is why orange is also often described as an energetic color. Orange can have both positive and negative connotations, depending on the individual. On the plus side, people often associated orange with optimism, confidence, enthusiasm, warmth, and agreeableness. Because it is a bright and vivacious color, it may help people feel outgoing or even bold. On the negative side, it may bring to mind feelings of superficiality, arrogance, or pride. Because it is often seen in nature during the Fall season, it may be associated with cold weather, melancholy, and even death.'; 
+    color: whitesmoke;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #ff8d29, #ff8d29 50%, #0406b3 50%, #0406b3);
+}
+
+body::after {
+    content: 'NOW it comes w/ "ORanGEeeeeee";: eeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"" ';
+    text-shadow: 1px 1px 2px #000000;
+    font-size: 70px;
+    font-family: "crayonette-djr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 130px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(160deg, #c9c9c9, #c9c9c9 50%, transparent 50%, transparent);
+    animation: animate 3s ease-in-out infinite;
+}
+
+
+@keyframes animate {
+    0%, 100% {
+        transform: translateY(10px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.container {
+    position: relative;
+}
+
+.container::before {
+    position: unset;
+    bottom: 750px;
+    width: 100%;
+    height: 60px;
+    background: radial-gradient(rgba(0, 0, 0, 0.2) transparent, transparent);
+    border-radius: 50%;
+}
+
+.right {
+  float: right;
+  width: 300px;
+  padding: 10px;
+  color: orange;
+}
+
+.biu{
+    height: 30px;
+    width: 370px;
+    background-color: rgb(2, 13, 156, 1.0);
+    animation: mymove 5s infinite 1s normal both;
+}
+
+@keyframes mymove{
+    0%{
+        transform: translateX(-200px);
+        opacity: 0%;
+    }
+    50%{
+        transform: translateX(0px);
+        opacity: 80%;
+    }
+    100%{
+        transform: translateX(-80px);
+        opacity: 0%;
+    }
+}
+
+.biu2{
+    height: 20px;
+    width: 570px;
+    background-color: orange;
+    animation: mymove2 7s infinite 2s normal both;
+}
+
+@keyframes mymove2{
+    0%{
+        transform: translateX(-350px);
+        opacity: 0%;
+    }
+    50%{
+        transform: translateX(0px);
+        opacity: 80%;
+    }
+    100%{
+        transform: translateX(-180px);
+        opacity: 0%;
+    }
+}
+
+.emoji {
+  font-size: 6em;
+  filter: grayscale(100%);
+  transition: filter 450ms ease;
+}
+
+.emoji:is(:hover, :focus) {
+  filter: grayscale(0%) drop-shadow(0 8px 8px rgba(0, 0, 0, 0.5));
+}
+
+.label{
+    color: orange;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.box2 {
+    font-size: 30px;
+    font-family: sans-serif;
+    align-content: middle;
+    position: relative;
+    z-index: 5;
+    width: 400px;
+    height: 700px;
+    backdrop-filter: blur(25px);
+    border-radius: 50%;
+    border: 0.5px solid rgba(325, 325, 325, 0.5);
+    animation: none;
+}
+
+.btn{
+    position: unset;
+    display: block;
+    color: white;
+    font-size: 14px;
+    font-family: montserrat;
+    text-decoration: none;
+    margin: 30px 0;
+    border: 1px solid white;
+    padding: 14px 60px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+    box-shadow: 0 5px 6px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    transform: rotateX(360deg)
+}
+
+h3{
+    color: orange;
+    width: 100px;
+    height: 100px;
+    background: black;
+    transition: width 2s;
+}
+
+h3:hover{
+    width: 300px;
+}
+
+h6{
+    color: lightgray;
+    font-size: 20px;
+}
+
+
