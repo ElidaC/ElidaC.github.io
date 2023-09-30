@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+}
+
+body{
+    cursor: url(Entries/entry4/imgs/leaf-cursor.png), auto;
+}
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: linear-gradient(45deg, #206126, #011f09);
+    }
+
+    body::before {
+      width: 50vmin;
+      height: 50vmin;
+      content: "";
+      background-image: linear-gradient(135deg, #4b614d, #011f09);
+      border-radius: 30vmin 70vmin 53vmin 47vmin / 26vmin 46vmin 54vmin 74vmin;
+      box-shadow: 
+            0 -2vmin 3vmin #78a674 inset, 
+            0 1vmin 4vmin #38a12f inset,
+            0 -2vmin 7vmin #038f50 inset;
+      animation: anim 30s infinite;
+      display: inline-block;
+      filter: drop-shadow(0 0 3vmin yellow) drop-shadow(0 5vmin 4vmin #b4f748)
+        drop-shadow(2vmin -2vmin 15vmin #134a23)
+        drop-shadow(0 0 7vmin darkgreen);
+      position: relative;
+      top: 0;
+    }
+
+    @keyframes anim {
+      0%,
+      100% {
+        border-radius: 30% 70% 70% 30% / 30% 52% 48% 70%;
+        box-shadow: 0 -2vmin 3vmin #78a674 inset, 0 1vmin 4vmin #38a12f inset,
+          0 -2vmin 7vmin #038f50 inset;
+      }
+
+      10% {
+        border-radius: 50% 50% 20% 80% / 25% 80% 20% 75%;
+      }
+
+      20% {
+        border-radius: 67% 33% 47% 53% / 37% 20% 80% 63%;
+      }
+
+      30% {
+        border-radius: 39% 61% 47% 53% / 37% 40% 60% 63%;
+        box-shadow: -1vmin -2vmin 3vmin #78a674 inset,
+          -1vmin -2vmin 4vmin #38a12f inset, 1vmin -1vmin 7vmin #038f50 inset;
+      }
+
+      40% {
+        border-radius: 39% 61% 82% 18% / 74% 40% 60% 26%;
+      }
+
+      50% {
+        border-radius: 100%;
+        box-shadow: 0 2vmin 3vmin #78a674 inset, 0 1vmin 4vmin #38a12f inset,
+          0 2vmin 7vmin #038f50 inset;
+      }
+
+      60% {
+        border-radius: 50% 50% 53% 47% / 72% 69% 31% 28%;
+      }
+
+      70% {
+        border-radius: 50% 50% 53% 47% / 26% 22% 78% 74%;
+        box-shadow: 1vmin 1vmin 4vmin #78a674 inset,
+          2vmin -1vmin 4vmin #38a12f inset, -1vmin -1vmin 5vmin #038f50 inset;
+      }
+
+      80% {
+        border-radius: 50% 50% 53% 47% / 26% 69% 31% 74%;
+      }
+
+      90% {
+        border-radius: 20% 80% 20% 80% / 20% 80% 20% 80%;
+      }
+    }
+
+    .header{
+  padding: 10px 0;
+  text-align: right;
+  color: whitesmoke;
+  font-family: "ltc-broadway-engraved", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

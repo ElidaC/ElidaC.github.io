@@ -5,14 +5,14 @@ body {
     background: black;
 }
 body::before {
-    content: 'Orange Is Energetic: Orange is often described as an energetic color. It may call to mind feelings of enthusiasm and excitement. Because orange is a high-energy color, many sports teams use orange in their uniforms, mascots, and branding.A 2018 study published in the journal Frontiers in Psychology found that orange was seen as an exciting color that could increase energy levels and make it more difficult to engage in difficult tasks such as studying.Orange Is Attention-Getting One study found that orange is considered a highly stimulating but friendly color.3 It is an attention-grabbing color that tends to stand out visually, which is why it is often used for traffic signs and advertising.Research has shown that longer-wavelength colors such as orange and red tend to induce higher levels of arousal.Orange Is Happy People also commonly describe the color orange as bright, happy, and joyful. Orange is the color of bright sunsets and fruits like oranges and tangerines, so many people might associate the color with the beauty of the setting sun or the refreshing taste of citrus. Research also suggests that consumers respond to the color orange in a number of different ways. It is perceived as a playful, friendly color when used in consumer marketing and products. Shoppers also tend to associate it with more inexpensive products. Orange Is Spiritual The color orange is often associated with spiritual practices including meditation and compassion. In Southeast Asia, Buddhist monks wear orange robes that symbolize simplicity and letting go of materialism. The tradition dates back thousands of years to the time of Buddha. Robes were often made using bits of unwanted cloth that were then dyed using vegetable matter and spices such as turmeric and saffron. Today, the garments are often referred to as saffron robes. Orange Is Autumnal Orange is also linked to autumn and the color of dying leaves and pumpkins. The color is also heavily linked to Halloween in the United States, so it can sometimes have a dark or even cartoonish association. Psychology of the Color Orange Orange is a combination of red and yellow. Both colors are often associated with excitement and energy, which is why orange is also often described as an energetic color. Orange can have both positive and negative connotations, depending on the individual. On the plus side, people often associated orange with optimism, confidence, enthusiasm, warmth, and agreeableness. Because it is a bright and vivacious color, it may help people feel outgoing or even bold. On the negative side, it may bring to mind feelings of superficiality, arrogance, or pride. Because it is often seen in nature during the Fall season, it may be associated with cold weather, melancholy, and even death.'; 
+    content: 'Orange is often described as an energetic color. It may call to mind feelings of enthusiasm and excitement. Because orange is a high-energy color, many sports teams use orange in their uniforms, mascots, and branding. It is an attention-grabbing color that tends to stand out visually, which is why it is often used for traffic signs and advertising.Research has shown that longer-wavelength colors such as orange and red tend to induce higher levels of arousal.Orange Is Happy People also commonly describe the color orange as bright, happy, and joyful. Orange is the color of bright sunsets and fruits like oranges and tangerines, so many people might associate the color with the beauty of the setting sun or the refreshing taste of citrus. Research also suggests that consumers respond to the color orange in a number of different ways. It is perceived as a playful, friendly color when used in consumer marketing and products. Shoppers also tend to associate it with more inexpensive products. Orange Is Spiritual The color orange is often associated with spiritual practices including meditation and compassion. In Southeast Asia, Buddhist monks wear orange robes that symbolize simplicity and letting go of materialism. The tradition dates back thousands of years to the time of Buddha. Robes were often made using bits of unwanted cloth that were then dyed using vegetable matter and spices such as turmeric and saffron. Today, the garments are often referred to as saffron robes. Orange Is Autumnal Orange is also linked to autumn and the color of dying leaves and pumpkins. The color is also heavily linked to Halloween in the United States, so it can sometimes have a dark or even cartoonish association. Psychology of the Color Orange Orange is a combination of red and yellow. On the plus side, people often associated orange with optimism, confidence, enthusiasm, warmth, and agreeableness. Because it is a bright and vivacious color, it may help people feel outgoing or even bold. On the negative side, it may bring to mind feelings of superficiality, arrogance, or pride. Because it is often seen in nature during the Fall season.'; 
     color: whitesmoke;
     position: absolute;
     top: 50px;
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, #ff8d29, #ff8d29 50%, #0406b3 50%, #0406b3);
+    background: linear-gradient(45deg, #ff8d29, #ff8d29 50%, #fc532d 50%, #fc532d);
 }
 
 body::after {
@@ -27,7 +27,7 @@ body::after {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(160deg, #c9c9c9, #c9c9c9 50%, transparent 50%, transparent);
+    background: linear-gradient(160deg, #d1bba9, #d1bba9, transparent 50%, transparent);
     animation: animate 3s ease-in-out infinite;
 }
 
@@ -64,7 +64,7 @@ body::after {
 .biu{
     height: 30px;
     width: 370px;
-    background-color: rgb(2, 13, 156, 1.0);
+    background-color: rgb(252, 83, 45, 1.0);
     animation: mymove 5s infinite 1s normal both;
 }
 
