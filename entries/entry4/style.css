@@ -2,10 +2,6 @@ body {
   margin: 0;
 }
 
-body{
-    cursor: url(Entries/entry4/imgs/leaf-cursor.png), auto;
-}
-
     body {
       height: 100vh;
       display: flex;
@@ -84,11 +80,60 @@ body{
       }
     }
 
-    .header{
-  padding: 10px 0;
+h1{
+    padding: 10px 0;
+    text-align: right;
+   color: whitesmoke;
+   font-family: "ltc-broadway-engraved", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+    font-size: 65px;
+    margin-top: 700px;
+    opacity: 0.8;
+    transition: width 2s, height 4s;
+}
+
+h1:hover{
+font-size: 85px;
+}
+
+h2{
+  margin-bottom: 5px;
+  margin-top: 0px;
+  font-size: 30px;
   text-align: right;
+}
+
+.down{
   color: whitesmoke;
-  font-family: "ltc-broadway-engraved", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  animation-name: down;
+  animation-duration: 5s;
+}
+
+.down:hover {
+  background: -webkit-radial-gradient(#40ff00, #7d81ff, #00ed8a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.mood{
+  color:greenyellow;
+  font-size: 25px;
+  opacity: 0.7;
+   font-size: 11px;
+    font-weight: 400;
+    font-family: 'Roobert', 'Helvetica', Arial, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: repeat(13, 7.69%);
+    grid-template-rows: repeat(25, 5rem);
+    grid-template-areas: ".   .   .   .   .   .   .   .   .   .   .   .   ." ".   .   .   .   .   .   .   .   .   .   .   .   ." "t1  t1  t1  .   .   .   .   t3  t3  t3  .   .   ." ".   .   .   .   .   .   .   .   .   .   .   .   ." ".   .   .   .   .   .   .   .   .   .   .   .   ." ".   .   .   .   .   .   .   .   .   .   .   .   ." ".   .   .   .   .   .   .   .   .   .   .   .   ." ".   .   t2  t2  t2  .   .   .   .   t4  t4  t4  ." ".   .   .   .   .   .   .   .   .   .   .   .   ." ".   .   .   .   .   .   .   .   .   .   .   .   ." ".   .   .   .   .   .   .   .   .   .   .   .   ." ".   .   .   .   .   .   .   .   .   .   .   .   ." "t5  t5  t5  .   .   .   .   t6  t6  t6  .   .   ." ".   .   .   .   .   .   .   .   .   .   .   .   ." ".   .   .   .   .   .   .   .   .   .   .   .   ." ".   .   .   .   .   .   .   .   .   .   .   .   ." ".   .   .   .   .   .   .   .   .   .   .   .   ." ".   .   t7  t7  t7  .   .   .   .   t8  t8  t8  ." ".   .   .   .   .   .   .   .   .   .   .   .   ." ".   .   .   .   .   .   .   .   .   .   .   .   ." ".   .   .   .   .   .   .   .   .   .   .   .   ." ".   .   .   .   .   .   .   .   .   .   .   .   ." "t9  t9  t9  .   .   .   .   t10 t10 t10 .   .   ." ".   .   .   .   .   .   .   .   .   .   .   .   ." ".   .   .   .   .   .   .   .   .   .   .   .   .";
+    position: fixed;
+    width: 150%;
+    min-height: 150vh;
+    transform: translate(-494.75px, -62px);
 }
