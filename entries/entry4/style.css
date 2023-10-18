@@ -206,7 +206,7 @@ h2{
   filter: grayscale(100%) blur(3px);
   -webkit-transition: all .2s ease-in-out;
   width: 1200px;
-  height: 125px;
+  height: 140px;
   margin: 50px auto;
   padding 10px
 }
@@ -219,8 +219,8 @@ h2{
 .photo{
   display: grid;
   grid-template-columns: 1fr; 
-  width: 190px;
-  height: 125px;
+  width: 210px;
+  height: 140px;
   float: left;
   overflow: hidden;
   margin-right: 10px;
@@ -244,6 +244,9 @@ h3{
 @media (max-width: 768px) {
   .photo {
     grid-template-columns: 1fr 4fr 1fr; 
+    width: 30px;
+    height: 20px;
+
 }
   
 
@@ -253,6 +256,8 @@ h3{
 @media (max-width: 992px) {
     .photo {
     grid-template-columns: 2fr 1fr; 
+    width: 90px;
+    height: 60px;
 }
   
 }
@@ -261,7 +266,9 @@ h3{
 @media (max-width: 1200px) {
 
   .photo {
-    grid-template-columns: repeat(6, 1fr); /* Creates four columns, each taking up an equal fraction of the available space */
+    grid-template-columns: repeat(6, 1fr); 
+    width: 150px;
+    height: 100px;
 }
   
     
