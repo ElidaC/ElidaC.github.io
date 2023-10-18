@@ -201,7 +201,8 @@ h2{
 }
 
 .photo-grid {
-  display: block;
+  display: grid;
+  grid-template-columns: 1fr; 
   -webkit-filter: grayscale(100%) ; /* Safari 6.0 - 9.0 */
   filter: grayscale(100%) blur(3px);
   -webkit-transition: all .2s ease-in-out;
@@ -239,4 +240,41 @@ h2{
 h3{
   font-family: cursive;
   color: lightgreen;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .photo-grid {
+    grid-template-columns: 1fr 4fr 1fr; 
+    column-gap: 20px; /* Gap between columns */
+    row-gap: 20px; /* Gap between rows */
+}
+  
+
+}
+
+/* Desktop breakpoint */
+@media (max-width: 992px) {
+    .photo-grid {
+    grid-template-columns: 2fr 1fr; 
+    column-gap: 20px; /* Gap between columns */
+    row-gap: 20px; /* Gap between rows */
+}
+  
+}
+
+/* Wide screen breakpoint */
+@media (max-width: 1200px) {
+
+  .photo-grid {
+    grid-template-columns: repeat(6, 1fr); /* Creates four columns, each taking up an equal fraction of the available space */
+    column-gap: 20px; /* Gap between columns */
+    row-gap: 20px; /* Gap between rows */
+}
+  
+    
+
+  
 }
