@@ -5,8 +5,8 @@ body {
 
     body {
       margin-left: 100px;
-      margin-top: 200px;
-      display: flex;
+      margin-top: 100px;
+      display: absolute;
       background-image: linear-gradient(45deg, #206126, black);
     }
 
@@ -88,7 +88,7 @@ h1{
    font-family: "ltc-broadway-engraved", sans-serif;
    font-weight: 400;
    font-style: normal;
-    font-size: 115px;
+    font-size: 100px;
     opacity: 0.8;
     transition: width 2s, height 4s;
     margin-bottom: 5px;
@@ -105,7 +105,7 @@ color: forestgreen;
 h2{
   margin-bottom: 5px;
   margin-top: 0px;
-  font-size: 30px;
+  font-size: 35px;
   text-align: right;
   margin-right: 150px;
 }
@@ -238,4 +238,30 @@ h3{
   color: lightgreen;
 }
 
+p{
+  font-size: 20px;
+  margin-top: 0px;
+}
 
+@media screen and (max-width: 768px) {
+h1{
+    font-size: 60px;
+}
+p{
+  font-size: 10px;
+}
+.photo-grid {
+  display: flexbox;
+  filter: none;
+  width: 80%;
+  height: auto;
+}
+.biu{
+    height: 30px;
+    width: 170px;
+}
+.biu2{
+    height: 20px;
+    width: 270px;
+}
+}

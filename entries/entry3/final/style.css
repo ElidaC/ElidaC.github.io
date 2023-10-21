@@ -145,7 +145,7 @@ h3:hover{
     opacity: 0.5;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
 .title {
     margin-top: 180px;
     font-size: 140px;
