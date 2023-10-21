@@ -5,7 +5,7 @@ body {
     background: black;
 }
 body::before {
-    content: 'Orange is often described as an energetic color. It may call to mind feelings of enthusiasm and excitement. Because orange is a high-energy color, many sports teams use orange in their uniforms, mascots, and branding. It is an attention-grabbing color that tends to stand out visually, which is why it is often used for traffic signs and advertising.Research has shown that longer-wavelength colors such as orange and red tend to induce higher levels of arousal.Orange Is Happy People also commonly describe the color orange as bright, happy, and joyful. Orange is the color of bright sunsets and fruits like oranges and tangerines, so many people might associate the color with the beauty of the setting sun or the refreshing taste of citrus. Research also suggests that consumers respond to the color orange in a number of different ways. It is perceived as a playful, friendly color when used in consumer marketing and products. Shoppers also tend to associate it with more inexpensive products. Orange Is Spiritual The color orange is often associated with spiritual practices including meditation and compassion. In Southeast Asia, Buddhist monks wear orange robes that symbolize simplicity and letting go of materialism. The tradition dates back thousands of years to the time of Buddha. Robes were often made using bits of unwanted cloth that were then dyed using vegetable matter and spices such as turmeric and saffron. Today, the garments are often referred to as saffron robes. Orange Is Autumnal Orange is also linked to autumn and the color of dying leaves and pumpkins. The color is also heavily linked to Halloween in the United States, so it can sometimes have a dark or even cartoonish association. Psychology of the Color Orange Orange is a combination of red and yellow. On the plus side, people often associated orange with optimism, confidence, enthusiasm, warmth, and agreeableness. Because it is a bright and vivacious color, it may help people feel outgoing or even bold. On the negative side, it may bring to mind feelings of superficiality, arrogance, or pride. Because it is often seen in nature during the Fall season.'; 
+    content: 'Orange is the radiant color of cheerfulness and vivacity, the warmest of the warm colors, it reminds people of golden autumn, fruitfulness, and is a color of abundance, joy, and happiness. Many schools like to use orange as the primary color of the mascot, probably because Many schools like to use orange as the primary color of the mascot, probably because orange comes with a sense of energy, positivity, activity, and confidence.';
     color: whitesmoke;
     position: absolute;
     top: 50px;
@@ -46,7 +46,6 @@ body::after {
 }
 
 .container::before {
-    position: unset;
     bottom: 750px;
     width: 100%;
     height: 60px;
@@ -167,6 +166,57 @@ h3:hover{
 h6{
     color: lightgray;
     font-size: 20px;
+    margin-left: 20px;
 }
 
 
+
+
+@media screen and (max-width: 750px) {
+    body{
+        positon:absolute;
+    }
+  body::before {
+    top: 40px;
+    font-size: 13px;
+    margin-left: 10px;
+    width: 90%;
+    height: 100%;
+    text-align: right;
+  }
+
+  body::after {
+    font-size: 40px;
+    content: 'NOW it comes w/ "ORanGEeeeeee";: eeeeeeeeeeeeeeeeeeeeee"" ';
+    margin-top: 140px;
+    width: 80%;
+  }
+
+  .biu {
+    height: 30px;
+    width: 70%;
+    background-color: rgba(252, 83, 45, 1.0);
+    animation: mymove 5s infinite 1s normal both;
+  }
+
+  .biu2 {
+    height: 20px;
+    width: 60%;
+    background-color: orange;
+    animation: mymove2 7s infinite 2s normal both;
+  }
+
+.box2 {
+    margin-top: 140px;
+    width: 80%;
+    height: 70px;
+}
+h6{
+    font-size: 15px;
+}
+
+.emoji {
+  font-size: 3em;
+  filter: none;
+}
+}
