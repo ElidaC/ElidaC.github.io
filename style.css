@@ -3,14 +3,14 @@ body{
 }
 
 marquee{
-  margin-top: 160px;
+  margin-top: 100px;
 font-size: 30px;
 color: orange;
 }
 
 .title{
   color: white;
-  font-size: 230px;
+  font-size: 200px;
   font-family: "search", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -19,12 +19,37 @@ color: orange;
 }
 
 .link{
-  color: yellow;
   display: inline-flex;
-  font-size: 25px;
+  font-size: 15px;
   font-family: "macho", sans-serif;
 font-weight: 400;
 font-style: italic;
+}
+
+h2{
+  color: lightgray;
+  font-size: 20px;
+}
+
+a:link {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: greenyellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: lightblue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 .intro-1{
@@ -32,7 +57,7 @@ font-style: italic;
   margin-left: 350px;
   color: dimgray;
   font-size: 15px;
-  margin-top: 150px;
+  margin-top: 50px;
   opacity: 0.5;
 }
 
@@ -50,5 +75,5 @@ font-style: italic;
 }
 
 .intro-2:hover{
-  color: greenyellow;
+  color: orange;
 }
