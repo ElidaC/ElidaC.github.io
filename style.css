@@ -2,6 +2,32 @@ body{
   background: black;
 }
 
+.fixed{
+  position: fixed;
+}
+
+.spotlight {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.6;
+
+  border-radius: 30vmin 70vmin 53vmin 47vmin / 26vmin 46vmin 54vmin 74vmin;
+      box-shadow: 
+            0 -2vmin 3vmin blue inset, 
+            0 1vmin 4vmin yellow inset,
+            0 -2vmin 7vmin gray inset;
+      animation: anim 30s infinite;
+      display: inline-block;
+      filter: drop-shadow(0 0 3vmin yellow) drop-shadow(0 5vmin 4vmin blue)
+        drop-shadow(2vmin -2vmin 15vmin pink)
+        drop-shadow(0 0 7vmin darkgreen);
+}
+
+
+
 marquee{
   margin-top: 100px;
   font-size: 30px;
@@ -16,6 +42,7 @@ marquee{
   font-style: normal;
   text-align: center;
   animation: glow 2s, ease-in-out, infinite, alternate;
+  z-index: 1000;
 }
 
 
@@ -134,6 +161,7 @@ a:active {
 
 
 .gallery {
+  margin-top: 1500px;
   -moz-column-gap: 0;
        column-gap: 0;
 }
@@ -150,10 +178,83 @@ a:active {
   }
 }
 
+.gallery-link1{
+  margin-top: 0px;
+          -webkit-filter: grayscale(100%) ; /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) blur(3px);
+  -webkit-transition: all .2s ease-in-out;
+}
+
+.gallery-link1:hover{
+  filter: none;
+  cursor: pointer;
+}
+
+.gallery-link2{
+  margin-top: 500px;
+          -webkit-filter: grayscale(100%) ; /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) blur(3px);
+  -webkit-transition: all .2s ease-in-out;
+}
+
+.gallery-link2:hover{
+  filter: none;
+  cursor: pointer;
+}
+
+.gallery-link3{
+  margin-top: 1000px;
+          -webkit-filter: grayscale(100%) ; /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) blur(3px);
+  -webkit-transition: all .2s ease-in-out;
+}
+
+.gallery-link3:hover{
+  filter: none;
+  cursor: pointer;
+}
+
+.gallery-link4{
+  margin-top: 1500px;
+          -webkit-filter: grayscale(100%) ; /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) blur(3px);
+  -webkit-transition: all .2s ease-in-out;
+}
+
+.gallery-link4:hover{
+  filter: none;
+  cursor: pointer;
+}
+
+.gallery-link5{
+  margin-top: 2000px;
+          -webkit-filter: grayscale(100%) ; /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) blur(3px);
+  -webkit-transition: all .2s ease-in-out;
+}
+
+.gallery-link5:hover{
+  filter: none;
+  cursor: pointer;
+}
+
+.gallery-link6{
+  margin-top: 2500px;
+          -webkit-filter: grayscale(100%) ; /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) blur(3px);
+  -webkit-transition: all .2s ease-in-out;
+}
+
+.gallery-link6:hover{
+  filter: none;
+  cursor: pointer;
+}
+
 .gallery-image {
   position: relative;
   margin: 0;
   padding: 0;
+  border-radius: 20%;
 }
 .gallery-image:before, .gallery-image:after {
   content: "";
