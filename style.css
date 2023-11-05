@@ -250,6 +250,18 @@ a:active {
   cursor: pointer;
 }
 
+.gallery-link7{
+  margin-top: 2500px;
+          -webkit-filter: grayscale(100%) ; /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) blur(3px);
+  -webkit-transition: all .2s ease-in-out;
+}
+
+.gallery-link7:hover{
+  filter: none;
+  cursor: pointer;
+}
+
 .gallery-image {
   position: relative;
   margin: 0;
