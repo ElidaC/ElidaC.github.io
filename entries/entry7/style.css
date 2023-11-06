@@ -234,3 +234,76 @@ font-style: normal;
 font-weight: 400;
 font-style: normal;
 }
+
+
+@media screen and (max-width: 768px) {
+    svg{
+        max-width: 30%;
+        margin-left: 0px;
+        margin-top: 150px;
+    }
+    .one{
+        margin-left: 5px;
+        font-size: 10px;
+        margin-top: 460px;
+    }
+    .two{
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 13px;
+}
+
+.three{
+    margin-left: 30px;
+    margin-top: 100px; 
+    font-size: 13px;
+}
+
+.four{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.five{
+    margin-left: 25px;
+    font-size: 10px;
+}
+
+.six{
+    margin-left: 35px;
+    margin-top: 80px;
+    font-size: 7px;
+}
+
+.seven{
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.eight{
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+.nine{
+    margin-left: 25px;
+    font-size: 9px;
+}
+
+.ten{
+    margin-left: 45px;
+    font-size: 12px;
+}
+
+.eleven{
+    margin-left: 30px;
+    font-size: 10px;
+}
+
+.twelve{
+    margin-left: 19px;
+    top:40%;
+    font-size: 15px;
+}
+    }
