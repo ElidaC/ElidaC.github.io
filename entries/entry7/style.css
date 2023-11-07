@@ -249,7 +249,7 @@ font-style: normal;
     }
     .two{
     margin-left: 20px;
-    margin-top: 40px;
+    top:0;
     font-size: 13px;
 }
 
@@ -279,31 +279,36 @@ font-style: normal;
 .seven{
     margin-left: 10px;
     font-size: 15px;
+    top: 0;
 }
 
 .eight{
     margin-left: 15px;
     font-size: 12px;
+    top:0;
 }
 
 .nine{
     margin-left: 25px;
     font-size: 9px;
+    top:0;
 }
 
 .ten{
     margin-left: 45px;
     font-size: 12px;
+    top:0;
 }
 
 .eleven{
     margin-left: 30px;
     font-size: 10px;
+    top:0;
 }
 
 .twelve{
     margin-left: 19px;
-    top:40%;
     font-size: 15px;
+    top:0;
 }
     }
