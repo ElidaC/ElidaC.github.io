@@ -109,10 +109,10 @@ font-style: normal;
 
 
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 2000px){
   h1{
-  margin-left: 130px;
-  font-size: 150px;
+  margin-left: 300px;
+  font-size: 250px;
 }
   h2{
   font-size: 40px;
