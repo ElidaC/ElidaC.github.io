@@ -60,22 +60,22 @@ function changeColor() {
             color = "#F79AC0";
             break;
          case "passion":
-            color = "#F79AC0";
+            color = "#FC4C4E";
             break;
         case "cheer":
-            color = "#F79AC0";
+            color = "#FD5DA8";
             break;
         case "baby":
-            color = "#F79AC0";
+            color = "#F2B8C6";
             break;
         case "confidence":
-            color = "#F79AC0";
+            color = "##E11584";
             break;
         case "shy":
-            color = "#F79AC0";
+            color = "#FEC5E5";
             break;
         case "warm":
-            color = "#F79AC0";
+            color = "#FE7F9C";
             break;
     }
 
