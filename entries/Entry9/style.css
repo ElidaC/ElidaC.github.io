@@ -83,11 +83,32 @@ section {
   font-variation-settings: "wght" 300;
 }
 
+.content:hover{
+    cursor: url(img/one.png);
+}
+
 h2:hover{
-  background: -webkit-radial-gradient(#facaec, #f7bad8, #ffadcb);
+  background: -webkit-radial-gradient(#facaec, #f7bad8, #f7c6cc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  cursor: url(img/one.png);
+}
+
+h3:hover{
+  background: -webkit-radial-gradient(#fc9dc0, #e68aa7, #ff8cc6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h4:hover{
+  background: -webkit-radial-gradient(#85114b, #962148, #b82a6a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h5:hover{
+  background: -webkit-radial-gradient(#fa7a7a, #f58ca4, #f77988);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .face {
