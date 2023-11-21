@@ -245,17 +245,63 @@ h5:hover{
 
 @media screen and (max-width: 768px) {
 .quote{
-  margin-left: -650px;
+  margin-left: -500px;
   width: 800px;
   margin-top: 300px;
+  font-size: 10px;
 }
 .button{
-  margin-top: 1000px;
+  margin-top: 1050px;
+  margin-left: 5px;
   }
+.face{
+width: 100px;
+  height: 100px;
+}
+.face::before{
+    margin-left: -200px;
+  width: 90px;
+  height: 36px;
+}
+.face:hover::before{
+  height: 12px;
+}
+.eyes > .eye{
+  /* 生成白色眼球 */
+  margin-left: -200px;
+  width: 48px;
+  height: 48px;
+}
+.eyes > .eye::before{
+  width: 24px;
+  height: 24px;
+}
   .title{
-margin-left: -400px;
+margin-left: -600px;
+}
+.click{
+  font-size: 20px;
+}
+.content{
+  margin-left: -300px;
+  font-size: 10px;
+}
+.container {
+  margin-top: 2300px;
+    margin-left: -820px;
+    font-size: 12px;
 }
 .a{
-  margin-top: 2800px;
+  margin-left: -680px;
+  margin-top: 2300px;
+}
+.b{
+  width: 100px;
+  height: 90px;
+  }
+  .b div{
+  width: 135px;
+  height: 90px;
+  transform: rotateY(calc(var(--i)*120deg)) translateZ(150px);
 }
 }
