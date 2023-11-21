@@ -29,9 +29,10 @@ h1{
 }
 
 .click{
-  position: sticky;
+position: sticky;
 color: hotpink;
 margin-top: 1500px;
+margin-left: -200px;
 font-size: 30px;
 top:5%;
 }
@@ -182,7 +183,7 @@ h5:hover{
 
 .a{
   position: relative;
-  margin-top: 2900px;
+  margin-top: 2800px;
   margin-left: -600px;
   position: 500px;
   top: 220px;
@@ -240,4 +241,21 @@ h5:hover{
   100%{
     transform: translateZ(-100px) rotateY(-360deg);
   }
+}
+
+@media screen and (max-width: 768px) {
+.quote{
+  margin-left: -650px;
+  width: 800px;
+  margin-top: 300px;
+}
+.button{
+  margin-top: 1000px;
+  }
+  .title{
+margin-left: -400px;
+}
+.a{
+  margin-top: 2800px;
+}
 }
