@@ -59,7 +59,24 @@ function changeColor() {
         case "youth":
             color = "#F79AC0";
             break;
- 
+         case "passion":
+            color = "#F79AC0";
+            break;
+        case "cheer":
+            color = "#F79AC0";
+            break;
+        case "baby":
+            color = "#F79AC0";
+            break;
+        case "confidence":
+            color = "#F79AC0";
+            break;
+        case "shy":
+            color = "#F79AC0";
+            break;
+        case "warm":
+            color = "#F79AC0";
+            break;
     }
 
     colorDisplay.style.backgroundColor = color;
