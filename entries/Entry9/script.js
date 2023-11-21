@@ -67,88 +67,10 @@ function changeColor() {
 
 let body = document.body;
 
-    function turnOnLight() {
-      body.classList.toggle("light");
-      button.classList.toggle("buttonOn");
-    }
+function turnOnLight() {
+  body.classList.toggle("light");
+  button.classList.toggle("buttonOn");
+}
 
-    let button = document.querySelector(".button");
-    button.addEventListener("click", turnOnLight);
-
-    let button = document.getElementById("button2");
-    button.addEventListener("click", generate);
-
-
-
-            function generate(){
-            // list one content
-            var one = [
-                "rose",
-                "fuscia",
-                "punch",
-                "blush",
-                "watermelon",
-                "flamingo",
-                "rouge",
-                "salmon",
-                "coral",
-                "peach",
-                "strawberry",
-                "rosewood",
-                "lemonade",
-                "taffy",
-                "bubblegum",
-                "ballet slipper",
-                "crepe",
-                "magenta",
-                "hot",
-            ];
-
-            // list two content
-            var two = [
-                "pink",
-            ];
-            
-            // list three content
-            var three = [
-                "loved",
-                "like a barbie",
-                "bold",
-                "shy",
-                "warm",
-                "calm",
-                "a fashion vibe",
-                "soft",
-                "vivid",
-                "spirited",
-                "passionate",
-                "timeless",
-                "a childish vibe",
-                "sophisticated"
-                "cheerful"
-                "like a baby"
-                "confident"
-                "energetic"
-            ];
-            
-
-
-                // Select a random item from each list
-                var selected_one = select_random(one);
-                var selected_two = select_random(two);
-                var selected_three = select_random(three);
-
-                // Take the selected (random) item from list and make it visible
-                $('.list-one').html(selected_one);
-                $('.list-two').html(selected_two);
-                $('.list-three').html(selected_three);
-
-            }
-
-    function select_random(x) {
-      return x[Math.floor(Math.random() * x.length)];
-    }
-    
-            generate();
-            
-    
+let button = document.querySelector(".button");
+button.addEventListener("click", turnOnLight);
