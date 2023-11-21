@@ -29,6 +29,9 @@ function changeColor() {
     let color;
 
     switch (selectedMood) {
+        case "none":
+            color = "black";
+            break;
         case "love":
             color = "#F699CD";
             break;
@@ -69,7 +72,7 @@ function changeColor() {
             color = "#F2B8C6";
             break;
         case "confidence":
-            color = "##E11584";
+            color = "#E11584";
             break;
         case "shy":
             color = "#FEC5E5";
@@ -77,6 +80,9 @@ function changeColor() {
         case "warm":
             color = "#FE7F9C";
             break;
+
+            default:
+            color = "white";
     }
 
     colorDisplay.style.backgroundColor = color;
