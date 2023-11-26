@@ -28,14 +28,6 @@ h1{
     font-variation-settings: "BUBL" 100;
 }
 
-.click{
-position: sticky;
-color: hotpink;
-margin-top: 1500px;
-margin-left: -200px;
-font-size: 30px;
-top:5%;
-}
 
 section {
   display:  flex;
@@ -48,6 +40,7 @@ section {
 .button {
     position: fixed;
     margin-left: 300px;
+    margin-top: 200px;
   padding: 20px 50px;
   border-radius: 30px;
   background-color: hotpink;
@@ -177,71 +170,6 @@ h5:hover{
   transform: translate(-50%, -50%);
 }
 
-*{
-  box-sizing: border-box;
-}
-
-.a{
-  position: relative;
-  margin-top: 2800px;
-  margin-left: -600px;
-  position: 500px;
-  top: 220px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  perspective: 1200px;
-}
-
-.b{
-  width: 300px;
-  height: 250px;
-  position: absolute;
-  transform-style: preserve-3d;
-  animation:do 5s infinite cubic-bezier(.7,0,.17,1);
-}
-
-.b div{
-  position: absolute;
-  background-size: cover;
-  opacity: .9;
-  width: 400px;
-  height: 250px;
-  transform: rotateY(calc(var(--i)*120deg)) translateZ(400px);
-}
-
-.c{
-  background-image: url(img/pic.JPG);
-  border-radius: 10%;
-  filter: drop-shadow(1px 1px 2px rgb(65, 64, 64));
-}
-
-.d{
-  background-image: url(img/tu.JPG);
-  border-radius: 10%;
-  filter: drop-shadow(1px 1px 2px rgb(65, 64, 64));
-}
-
-.e{
-  background-image: url(img/re.JPG);
-  border-radius: 10%;
-  filter: drop-shadow(1px 1px 2px rgb(65, 64, 64));
-}
-
-@keyframes do{
-  0%{
-    transform: translateZ(-100px) rotateY(0);
-  }
-  33%{
-    transform: translateZ(-100px) rotateY(-120deg);
-  }
-  66%{
-    transform: translateZ(-100px) rotateY(-240deg);
-  }
-  100%{
-    transform: translateZ(-100px) rotateY(-360deg);
-  }
-}
 
 @media screen and (max-width: 768px) {
 .quote{
@@ -279,9 +207,6 @@ width: 100px;
   .title{
 margin-left: -600px;
 }
-.click{
-  font-size: 20px;
-}
 .content{
   margin-left: -300px;
   font-size: 10px;
@@ -290,18 +215,5 @@ margin-left: -600px;
   margin-top: 2300px;
     margin-left: -820px;
     font-size: 12px;
-}
-.a{
-  margin-left: -680px;
-  margin-top: 2300px;
-}
-.b{
-  width: 100px;
-  height: 90px;
-  }
-  .b div{
-  width: 135px;
-  height: 90px;
-  transform: rotateY(calc(var(--i)*120deg)) translateZ(150px);
 }
 }
