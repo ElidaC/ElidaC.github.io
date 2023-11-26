@@ -38,3 +38,9 @@ body {
   cursor: url('img/leaf.png');
   transition: 8ms ease-out;
 }
+
+.word{
+  color: whitesmoke;
+  margin-top: 130px;
+  margin-left: 100px;
+}
