@@ -33,6 +33,7 @@ body {
       position: absolute;
       width: 240px;
       height: 207px;
+      background-image: url(img/leaf.png);
       background: #9fb8e3;
       border-radius: 50%;
       mix-blend-mode: color-dodge;
