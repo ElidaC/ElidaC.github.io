@@ -13,9 +13,7 @@ body {
 
 .button {
   background-image: url(img/leaf.png);
-  color: white;
-  font-size: 30px;
-  padding: 30px;
+  background-size: cover;
   border-radius: 100px;
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
