@@ -1,3 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 body {
  background-color: #805239;
  background-size: cover;
@@ -9,7 +16,12 @@ body {
   height: 100vh;
 }
 
+.wrapper:hover{
+  cursor: url('img/leaf.png');
+}
+
 .button {
+  margin-top: -280px;
   width: 240px;
   height: 207px;
   background: #694e00;
@@ -20,11 +32,6 @@ body {
   user-select: none; /* Standard syntax */
 }
 
-.button:hover {
-  cursor: url('img/leaf.png');
-  transition: 8ms ease-out;
-}
-
 .blob {
       position: absolute;
       width: 240px;
@@ -32,15 +39,50 @@ body {
       background: #694e00;
       border-radius: 50%;
       mix-blend-mode: color-dodge;
-}
-
-.blob:hover {
-  cursor: url('img/leaf.png');
-  transition: 8ms ease-out;
+      z-index: 200;
 }
 
 .word{
   color: whitesmoke;
-  margin-top: 130px;
-  margin-left: 100px;
+  margin-top: 330px;
+  margin-right: 50px;
+  font-family: "brevia", sans-serif;
+font-weight: 700;
+font-style: normal;
+text-align: right;
 }
+
+.mood{
+  position: sticky;
+margin-top: -300px;
+font-family: "brevia", sans-serif;
+font-weight: 400;
+font-style: italic;
+font-size: 30px;
+margin-left: 10px;
+top: 5%;
+}
+
+h3{
+  margin-top: 400px;
+  color: #614817;
+}
+
+h1{
+  color: #9e4d06;
+}
+
+h4{
+  color: #852d04;
+}
+
+h5{
+ color: #3d1a09;
+}
+
+ #canvas-container {
+            position: fixed;
+            width: 100%;
+            z-index: -1000;
+        }
+
