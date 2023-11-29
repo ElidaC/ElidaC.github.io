@@ -2,6 +2,7 @@ $(window).scroll(function() {
    alert('Danger! Danger!! Danger!!!');
 });
 
+
 var spotlight = document.querySelector(".spotlight");
 var isUserMotion = false;
 

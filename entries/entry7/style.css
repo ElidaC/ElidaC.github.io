@@ -196,7 +196,7 @@ font-style: normal;
 
 .nine{
     position: sticky;
-    top: 85%;
+    top: 80%;
     color: #008080;
     margin-left: 240px;
     font-family: "bely", serif;
@@ -206,7 +206,7 @@ font-style: normal;
 
 .ten{
     position: sticky;
-    top: 65%;
+    top: 26%;
     color: #3AB09E;
     margin-left: 450px;
 font-family: "bely-display", sans-serif;
@@ -216,7 +216,7 @@ font-style: normal;
 
 .eleven{
     position: sticky;
-    top: 75%;
+    top: 70%;
     color: #15A3C7;
     margin-left: 300px;
     margin-top: 50px;
@@ -227,7 +227,7 @@ font-style: normal;
 
 .twelve{
     position: sticky;
-    top: 90%;
+    top: 65%;
     color: #006D6F;
     margin-left: 190px;
     font-family: "bely", serif;
@@ -235,6 +235,21 @@ font-weight: 400;
 font-style: normal;
 }
 
+.bar{
+  text-align: center;
+}
+
+.bar:hover{
+    background-color:  #40E0D0;
+}
+
+a{
+transition: box-shadow 0.3s ease;
+}
+
+a:hover{
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 
 @media screen and (max-width: 768px) {
     svg{

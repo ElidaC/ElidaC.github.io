@@ -186,3 +186,20 @@ h3{
 }
 
 }
+
+
+.bar{
+  text-align: center;
+}
+
+.bar:hover{
+    background-color: red;
+}
+
+a{
+transition: box-shadow 0.3s ease;
+}
+
+a:hover{
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

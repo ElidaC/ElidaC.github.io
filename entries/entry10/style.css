@@ -170,6 +170,24 @@ h5:hover{
   transform: translate(-50%, -50%);
 }
 
+.bar{
+  margin-top: 3000px;
+  text-align: center;
+  width: 1000px;
+}
+
+.bar:hover{
+    background-color: hotpink;
+}
+
+a{
+transition: box-shadow 0.3s ease;
+}
+
+a:hover{
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 
 @media screen and (max-width: 768px) {
 .quote{
