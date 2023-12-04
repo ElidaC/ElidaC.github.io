@@ -28,7 +28,7 @@ div {
   padding: 20px 0;
   mix-blend-mode: screen;
   transform-style: preserve-3d;
-  margin-left: 300px;
+  margin-left: 350px;
   margin-top: 100px;
 }
 #ui .text:nth-child(1) {
@@ -237,7 +237,7 @@ a:active {
 
 .intro-1{
   text-align: left;
-  margin-left: 650px;
+  margin-left: 700px;
   color: dimgray;
   font-size: 15px;
   margin-top: 50px;
@@ -248,7 +248,7 @@ a:active {
 .intro-2{
   text-align: right;
   margin-top: 20px;
-  margin-right: 290px;
+  margin-right: 200px;
   color: dimgray;
   font-size: 15px;
   opacity: 0.5;
