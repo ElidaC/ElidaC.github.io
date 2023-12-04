@@ -267,7 +267,6 @@ a:active {
   filter: grayscale(100%) blur(3px);
 }
 
-
 .gallery-link2{
   margin-top: 0px;
           -webkit-filter: grayscale(100%) ; /* Safari 6.0 - 9.0 */
@@ -366,6 +365,9 @@ a:active {
   margin-top: 0px;
 }
 
+.gallery-link1:hover{
+  cursor: ;
+}
 
 .gallery-link2{
   margin-top: 100px;
