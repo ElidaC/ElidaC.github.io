@@ -479,6 +479,8 @@ background-color: #B6A6CA;
 
 .bar{
   text-align: center;
+  width: 100px;
+  margin-left: 65px;
 }
 
 .bar:hover{

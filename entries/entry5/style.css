@@ -193,6 +193,7 @@ img{
 
 .bar{
   text-align: center;
+  margin-top: 5000px;
 }
 
 .bar:hover{
