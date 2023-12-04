@@ -339,26 +339,28 @@ a:active {
   }
 
   marquee{
-  width: 350px;
+    margin-top: 20px;
+  width: 300px;
   font-size: 20px;
 }
 
 .intro-1{
-  margin-top: 0px;
-  margin-left: 50px;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-left: 20px;
   color: dimgray;
 }
 
 .intro-2{
-  margin-left: 170px;
-  width: 200px;
-  font-size: 15px;
-  margin-top: 350px;
+  font-size: 12px;
+  margin-left: 130px;
+  width: 180px;
+  margin-top: 370px;
 }
 
 .gallery {
-  margin-top: 1300px;
-  margin-left: 50px;
+  margin-top: 800px;
+  margin-left: 30px;
 }
 
 .gallery-link1{
