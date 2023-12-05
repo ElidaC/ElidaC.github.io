@@ -174,10 +174,14 @@ h5:hover{
   margin-top: 3000px;
   text-align: center;
   width: 1000px;
+    -webkit-filter: grayscale(100%) ; /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) blur(3px);
+  -webkit-transition: all .2s ease-in-out;;
 }
 
 .bar:hover{
     background-color: hotpink;
+    filter: none;
 }
 
 a{

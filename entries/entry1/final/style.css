@@ -17,10 +17,14 @@ strong{
 
 .bar{
   text-align: center;
+    -webkit-filter: grayscale(100%) ; /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) blur(3px);
+  -webkit-transition: all .2s ease-in-out;;
 }
 
 .bar:hover{
     background-color: lightblue;
+    filter: none;
 }
 
 a{
