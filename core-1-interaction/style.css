@@ -267,12 +267,19 @@ a:active {
   filter: grayscale(100%) blur(3px);
 }
 
+.gallery-link1:hover{
+  filter: none;
+}
+
 .gallery-link2{
   margin-top: 0px;
           -webkit-filter: grayscale(100%) ; /* Safari 6.0 - 9.0 */
   filter: grayscale(100%) blur(3px);
 }
 
+.gallery-link2:hover{
+  filter:none;
+}
 
 .gallery-link3{
   margin-top: 100px;
@@ -280,6 +287,9 @@ a:active {
   filter: grayscale(100%) blur(3px);
 }
 
+.gallery-link3:hover{
+  filter: none;
+}
 
 .gallery-link4{
   margin-top: 50px;
@@ -287,6 +297,9 @@ a:active {
   filter: grayscale(100%) blur(3px);
 }
 
+.gallery-link4:hover{
+  filter: none;
+}
 
 .gallery-link5{
   margin-top: 150px;
@@ -294,6 +307,9 @@ a:active {
   filter: grayscale(100%) blur(3px);
 }
 
+.gallery-link5:hover{
+  filter: none;
+}
 
 .gallery-link6{
   margin-top: 250px;
@@ -301,6 +317,9 @@ a:active {
   filter: grayscale(100%) blur(3px);
 }
 
+.gallery-link6:hover{
+  filter: none;
+}
 
 .gallery-link7{
   margin-top: 100px;
@@ -308,11 +327,18 @@ a:active {
   filter: grayscale(100%) blur(3px);
 }
 
+.gallery-link7:hover{
+  filter: none;
+}
 
 .gallery-link8{
   margin-top: 200px;
           -webkit-filter: grayscale(100%) ; /* Safari 6.0 - 9.0 */
   filter: grayscale(100%) blur(3px);
+}
+
+.gallery-link8:hover{
+  filter: none;
 }
 
 .gallery-link9{
@@ -321,12 +347,19 @@ a:active {
   filter: grayscale(100%) blur(3px);
 }
 
+.gallery-link9:hover{
+  filter: none;
+}
+
 .gallery-link10{
   margin-top: 150px;
           -webkit-filter: grayscale(100%) ; /* Safari 6.0 - 9.0 */
   filter: grayscale(100%) blur(3px);
 }
 
+.gallery-link10:hover{
+  filter: none;
+}
 
 @media screen and (max-width: 768px) {
 
