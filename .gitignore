@@ -1,3 +1,4 @@
-
-entries/entry4/imgs/IMG_6433.mov
-entries/entry4/imgs/IMG_9971.MOV
+.git
+.gitignore
+node_modules
+.DS_Store
