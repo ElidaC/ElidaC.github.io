@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Matemasie&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <title>AI & Creative Professionals</title>
+</head>
+<body>
+
+  <img src="title.png" id="image" style="cursor: pointer;">
+  <div id="overlay" class="overlay" style="display: none;">
+    <div class="overlay-content">
+      <span id="close-button" class="close-button">&times;</span>
+      <h2>Design and art are 
+        present in every aspect 
+        of people's lives. In the 
+        era of AI, does it pose 
+        a threat to the creative 
+        industry? What 
+        assistance and impact 
+        can AI bring to 
+        creative professionals?</h2>
+    </div>
+  </div>
+  
+    
+    <div class="container">
+    <div class="dropdown">
+        <label for="jobs"><h2>Job Selector: &nbsp</h2></label>
+        <select id="jobs">
+          <option value="">What's your job?</option>
+          <option value="Graphic and Visual Design">Graphic and Visual Design</option>
+          <option value="Product and Industrial Design">Product and Industrial Design</option>
+          <option value="Fine Arts">Fine Arts</option>
+          <option value="Digital and Multimedia Arts">Digital and Multimedia Arts</option>
+          <option value="Creative Coding and Robotic">Creative Coding and Robotic</option>
+          <option value="Photography and Videography">Photography and Videography</option>
+          <option value="Architecture and Interior Design">Architecture and Interior Design</option>
+          <option value="Creative Direction and Strategy">Creative Direction and Strategy</option>
+          <option value="Miscellaneous Roles">Miscellaneous Roles</option>
+          <option value="Industries Employing Artists and Designers">Industries Employing Artists and Designers</option>
+        </select>
+
+        <label for="choice"><h2>Pros/Cons: &nbsp</h2></label>
+        <select id="choice">
+          <option value="">What's your choice?</option>
+          <option value="Pros">Pros</option>
+          <option value="Cons">Cons</option>
+        </select>
+
+        <input type="text" id="text-input" placeholder="&nbsp What's the reason of your choice?">
+        <button id="set-button">⏏︎</button>
+      </div>
+
+      </div>
+
+      <div class="list">
+        <!-- 圆圈区域 -->
+        <div class="circle-list">
+          <div class="job-container" id="Graphic and Visual Design"></div>
+          <div class="job-container" id="Product and Industrial Design"></div>
+          <div class="job-container" id="Fine Arts"></div>
+          <div class="job-container" id="Digital and Multimedia Arts"></div>
+          <div class="job-container" id="Creative Coding and Robotic"></div>
+          <div class="job-container" id="Photography and Videography"></div>
+          <div class="job-container" id="Architecture and Interior Design"></div>
+          <div class="job-container" id="Creative Direction and Strategy"></div>
+          <div class="job-container" id="Miscellaneous Roles"></div>
+          <div class="job-container" id="Industries Employing Artists and Designers"></div>
+        </div>
+      
+        <div class="line"></div>
+
+        <!-- 标题文字 -->
+        <div class="titles">
+          <div class="job-container">
+            <p>Graphic and Visual Design</p>
+          </div>
+          <div class="job-container">
+            <p>Product and Industrial Design</p>
+          </div>
+          <div class="job-container">
+            <p>Fine Arts</p>
+          </div>
+          <div class="job-container">
+            <p>Digital and Multimedia Arts</p>
+          </div>
+          <div class="job-container">
+            <p>Creative Coding and Robotic</p>
+          </div>
+          <div class="job-container">
+            <p>Photography and Videography</p>
+          </div>
+          <div class="job-container">
+            <p>Architecture and Interior Design</p>
+          </div>
+          <div class="job-container">
+            <p>Creative Direction and Strategy</p>
+          </div>
+          <div class="job-container">
+            <p>Miscellaneous Roles</p>
+          </div>
+          <div class="job-container">
+            <p>Industries Employing Artists and Designers</p>
+          </div>
+        </div>
+      </div>
+      
+      
+
+<div id="circles-container"></div>
+  <div id="quote-display" class="quote-display"></div>
+
+
+      
+
+
+
+      <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
