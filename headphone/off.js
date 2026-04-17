@@ -263,7 +263,7 @@ const DATA = [
   {
     id: "p14",
     years: 1,
-    volume: 7,
+    volume: 8,
     size: 75, 
     thumb: "bg/nilu2.png", 
     imgA: "bg/nilu2.png",  
@@ -274,7 +274,7 @@ const DATA = [
     info: {
       interviewee: "Nilu A.",
       device: "Apple",
-      volume: "7/10",
+      volume: "8/10",
       experience: "1 year",
       moment: "mediating & during school, while sewing",
     },
